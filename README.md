@@ -1,4 +1,4 @@
 # RealClcok
 A graceful clock which is nearly to the real clock
 
-the screenshot sees  http://pan.baidu.com/s/1qWynpJu
+![image](https://github.com/dirtyhub/RealClcok/blob/master/RealClock/device-2015-01-07-135723.png)
