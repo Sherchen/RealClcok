@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:clock="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+     >
+
+     <com.sherchen.realclock.RealAnalogClock2
+        clock:clock_dial="@drawable/watch_background"
+        clock:clock_pointer_hour="@drawable/watch_hour"
+        clock:clock_pointer_minute="@drawable/watch_minute"
+        clock:clock_brand="@drawable/watch_brand"
+        clock:clock_hour_center_offset="15dp"
+        clock:clock_minute_center_offset="15dp"
+        clock:clock_brand_margin_top="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+         />
+
+</RelativeLayout>

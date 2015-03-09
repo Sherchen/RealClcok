@@ -5,13 +5,25 @@
     android:layout_height="match_parent"
      >
 
-     <com.dirtyhub.realclock.RealAnalogClock
+     <!-- <com.dirtyhub.realclock.RealAnalogClock
         clock:clock_dial="@drawable/realclock_bg"
         clock:clock_pointer_hour="@drawable/realclock_hour"
         clock:clock_pointer_minute="@drawable/realclock_minute"
         clock:clock_pointer_second="@drawable/realclock_second"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-         />
+         /> -->
+         
+     <com.sherchen.realclock.RealAnalogClock3
+        clock:clock_dial="@drawable/watch_background"
+        clock:clock_pointer_hour="@drawable/watch_hour"
+        clock:clock_pointer_minute="@drawable/watch_minute"
+        clock:clock_brand="@drawable/watch_brand"
+        clock:clock_hour_center_offset="5dp"
+        clock:clock_minute_center_offset="5dp"
+        clock:clock_brand_margin_top="5dp"
+        android:layout_width="240dp"
+        android:layout_height="206dp"
+        />
 
 </RelativeLayout>

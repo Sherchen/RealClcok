@@ -2,8 +2,13 @@
 <resources>
     <declare-styleable name="RealAnalogClock">  
         <attr name="clock_dial" format="reference" />  
+        <attr name="clock_brand" format="reference" />
+        <attr name="clock_brand_margin_top" format="dimension|reference" />
         <attr name="clock_pointer_hour" format="reference" />  
+        <attr name="clock_hour_center_offset" format="dimension|reference" />
         <attr name="clock_pointer_minute" format="reference" />  
+        <attr name="clock_minute_center_offset" format="dimension|reference" />
         <attr name="clock_pointer_second" format="reference" />  
+        <attr name="clock_second_center_offset" format="dimension|reference" />
     </declare-styleable>  
 </resources>
